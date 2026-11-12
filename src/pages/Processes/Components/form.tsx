@@ -1529,6 +1529,7 @@ export const ProcessForm: FC<Props> = ({
                 defaultMessage='Dataset type'
               />
             }
+            required
             name={['modellingAndValidation', 'LCIMethodAndAllocation', 'typeOfDataSet']}
             rules={
               showRules
@@ -1844,6 +1845,7 @@ export const ProcessForm: FC<Props> = ({
                         'referenceToDataSource',
                       ]}
                       name={[field.name]}
+                      showRequiredLabel
                       label={
                         <FormattedMessage
                           id='pages.process.view.modellingAndValidation.referenceToDataSource'
@@ -2135,6 +2137,7 @@ export const ProcessForm: FC<Props> = ({
             'common:commissionerAndGoal',
             'common:referenceToCommissioner',
           ]}
+          showRequiredLabel
           label={
             <FormattedMessage
               id='pages.process.view.administrativeInformation.referenceToCommissioner'
@@ -2312,6 +2315,7 @@ export const ProcessForm: FC<Props> = ({
               'dataEntryBy',
               'common:referenceToPersonOrEntityEnteringTheData',
             ]}
+            showRequiredLabel
             rules={
               showRules
                 ? getRules(
@@ -2483,6 +2487,7 @@ export const ProcessForm: FC<Props> = ({
               'publicationAndOwnership',
               'common:referenceToOwnershipOfDataSet',
             ]}
+            showRequiredLabel
             label={
               <FormattedMessage
                 id='pages.process.view.administrativeInformation.referenceToOwnershipOfDataSet'
@@ -2510,6 +2515,7 @@ export const ProcessForm: FC<Props> = ({
                 defaultMessage='Copyright?'
               />
             }
+            required
             name={['administrativeInformation', 'publicationAndOwnership', 'common:copyright']}
             rules={
               showRules
@@ -2547,6 +2553,7 @@ export const ProcessForm: FC<Props> = ({
                 defaultMessage='License type'
               />
             }
+            required
             name={['administrativeInformation', 'publicationAndOwnership', 'common:licenseType']}
             rules={
               showRules
