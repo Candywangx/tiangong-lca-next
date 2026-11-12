@@ -57,8 +57,8 @@ checkPaths:
   - .github/workflows/build.yml
   - package.json
 lastReviewedAt: 2026-11-12
-lastReviewedCommit: b9411ce407153063367a5bf2a8dbb9a4f9053a4c
-lastReviewedNote: 'Platform #1493: reviewed authenticated data-transfer route, localized copy ownership, 65 current route assertions and matching evidence schema; browser execution and release qualification remain separate.'
+lastReviewedCommit: f5e89734b68cab067aaa79729375082f397d2c43
+lastReviewedNote: 'Platform #1488: reviewed persistent required labels, registry-driven language defaults and native Form.List regression proof; existing save, backend, dependency and release boundaries remain.'
 baselineObservedAt: 2026-07-18
 related:
   - ../../AGENTS.md

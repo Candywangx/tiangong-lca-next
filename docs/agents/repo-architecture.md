@@ -28,8 +28,8 @@ checkPaths:
   - tests/e2e/i18n/**
   - tests/e2e/dataset-lists/**
 lastReviewedAt: 2026-11-12
-lastReviewedCommit: b9411ce407153063367a5bf2a8dbb9a4f9053a4c
-lastReviewedNote: 'Platform #1493: reviewed DataTransfer, exact current/history archives, JSON result export and centered account layouts; retained role, calculation, test and release boundaries.'
+lastReviewedCommit: f5e89734b68cab067aaa79729375082f397d2c43
+lastReviewedNote: 'Platform #1488: reviewed persistent required labels, registry-driven language defaults and native Form.List regression proof; existing save, backend, dependency and release boundaries remain.'
 related:
   - ../AGENTS.md
   - ../.docpact/config.yaml
